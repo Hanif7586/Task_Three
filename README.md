@@ -1,16 +1,34 @@
 # task_three
 
-A new Flutter project.
+🗄️ Offline Capabilities with Hive & Provider
+A Flutter application showcasing offline data storage and synchronization using Hive for local storage and Provider for state management.
 
-## Getting Started
+# 🗄️ Offline Capabilities with Hive & Provider
 
-This project is a starting point for a Flutter application.
+A Flutter application showcasing offline data storage and synchronization using Hive for local storage and Provider for state management.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- 🌐 **Offline Data Storage**: Store and retrieve data locally using Hive.  
+- 🛠️ **State Management**: Efficient data handling with the Provider package.  
+- 🔄 **Sync with Remote API**: Automatically synchronize offline data with the server when online.  
+
+
+---
+
+## 🛠️ Technologies Used
+
+- **Flutter**: The UI framework.  
+- **Hive**: Lightweight and fast key-value database for local storage.  
+- **Provider**: State management solution for data sharing.  
+- **Dio**: HTTP client for API requests.  
+
+---
+
+## 📚 Requirements
+
+- Hive package: `flutter pub add hive`  
+- Hive Flutter adapter: `flutter pub add hive_flutter`  
+- Provider package: `flutter pub add provider`  
